@@ -14,12 +14,14 @@ Prerequisite: ucd.all.flat.xml from [unicode.org](http://www.unicode.org/Public/
 
 To extract all code points whose IDS value is Y ( i.e, all code points belonging to "ID_Start"), do
 ```
-icefapper@pard $ unilube @IDS:Y ucd.all.flat.xml 
+ $ unilube @IDS:Y ucd.all.flat.xml 
 ```
 
 Or to find all cp's that are both in ID_Start and ID_Continue, do
 ```
-icefapper@pard $ unilube @IDS:Y@IDC:Y ucd.all.flat.xml
+ $ unilube @IDS:Y@IDC:Y ucd.all.flat.xml
 ```
 
-Thanks a lot for reading this far.
+to get the most out of the output, you might want to consider using it along with  [bitlube](https://github.com/icefapper/bitlube) (which reads a list of numbers and creats a 0-indexed bit stream with bits at those indices set to 1 and the rest set to 0) and [lenlube](https://github.com/icefapper/lenlube) that, given a bitstream, would produce the corresponding run-length list for.
+
+Thanks a lot for reading this far. 
