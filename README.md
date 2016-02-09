@@ -24,4 +24,4 @@ Or to find all cp's that are both in ID_Start and ID_Continue, do
 
 to get the most out of the output, you might want to consider using it along with  [bitlube](https://github.com/icefapper/bitlube) (which reads a list of numbers and creats a 0-indexed bit stream with bits at those indices set to 1 and the rest set to 0) and [lenlube](https://github.com/icefapper/lenlube) (which, when given a bitstream, would produce the corresponding run-length list for it.)
 
-Thanks a lot for reading this far. 
+Thanks a lot  reading this far. 
